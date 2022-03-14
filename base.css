@@ -14,3 +14,8 @@ body {
 form {
     padding-bottom: 5rem;
 }
+
+.list__item {
+    font-size: 1.6rem;
+    background-color: brown;
+}
