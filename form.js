@@ -22,10 +22,24 @@ window.addEventListener('DOMContentLoaded', (event) => {
         //jakbym chciał wystylować <li> w css, a nie mam tej klasy w htmlu to mogę stworzyć sobie klasę tutaj i odwołac się do niej w css
         //dwie linijki pod robią to samo
         // shoppingListItem.classList.add("list__item");
-        shoppingListItem.setAttribute("class", "list__item")
+        shoppingListItem.setAttribute("class", "list__item");
         //tutaj dodałem atrybut title do <li>, który będzie miał nazwę value wpisaną przez użytkownika
         shoppingListItem.setAttribute("title", shoppingListItemValue);
         //do <ul> dodaję <li> z value wpisanym przez użytkownika w środku
         shoppingList.appendChild(shoppingListItem);
+    });
+    const shoppingListItemInputSecond = document.querySelector(".shopping-list__item-2");
+    const shoppingListItemSubmitButtonSecond = document.querySelector(".shopping-list--submit__button-2");
+
+    shoppingListItemSubmitButtonSecond.addEventListener("click", (event) => {
+        event.preventDefault;
+        const shoppingListItemValueSecond = shoppingListItemInputSecond.value;
+        const shoppingListSecond = document.querySelector(".shopping-list-2")
+        const shoppingListItemSecond = document.createElement('li');
+
+        shoppingListItemSecond.innterText = shoppingListItemValueSecond; 
+        shoppingListItemSecond.setAttribute("conteneditable", true);
+        shoppingListItemSecond.setAttribute("class", "list_item_second");
+        shoppingListSecond.appendChild(shoppingListItemSecond);
     });
 });

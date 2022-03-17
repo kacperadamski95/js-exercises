@@ -19,3 +19,9 @@ form {
     font-size: 1.6rem;
     background-color: brown;
 }
+
+.list_item_second {
+    font-size: 1.6rem;
+    background-color: yellowgreen;
+    color: red;
+}
