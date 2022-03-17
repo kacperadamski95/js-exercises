@@ -25,3 +25,17 @@ form {
     background-color: yellowgreen;
     color: red;
 }
+
+.remove-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* .list__item {
+    display: inline-flex;
+} */
+
+/* .shopping-list {
+    display: flex;
+    flex-direction: column;
+} */
