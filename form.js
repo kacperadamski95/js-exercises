@@ -11,6 +11,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
         return shoppingListItem;
     }
+adding-removing
+
+master
     const setAttributeForShoppingListItem = (listItem) => {
         listItem.setAttribute("contenteditable", true);
         listItem.setAttribute("class", "list__item");
@@ -25,12 +28,22 @@ window.addEventListener('DOMContentLoaded', (event) => {
         return removeIcon;
     }
 
+adding-removing
+
+
+master
     shoppingListItemSubmitButton.addEventListener("click", (event) => {
         event.preventDefault;
         const shoppingList = document.querySelector(".shopping-list");
         shoppingList.appendChild(handleShoppingListItem());
+adding-removing
     });
 
+
+
+    });
+
+master
     const allRemoveIcons = document.querySelectorAll(".remove-icon");
     for (let index = 0; index < allRemoveIcons.length; index++) {
         const deleteIcon = allRemoveIcons[index];
@@ -41,7 +54,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
     };
    
 
+adding-removing
 
+=======
+master
     const shoppingListItemInputSecond = document.querySelector(".shopping-list__item-2");
     const shoppingListItemSubmitButtonSecond = document.querySelector(".shopping-list--submit__button-2");
 
@@ -56,6 +72,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         shoppingListItemSecond.setAttribute("class", "list_item_second");
         shoppingListSecond.appendChild(shoppingListItemSecond);
     });
+ adding-removing
 
     for (var index = 1; index <= 45; index++) {
         if (index % 3 == 0 && index % 5 == 0) {
@@ -68,3 +85,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     };
 });
 
+
+});
+ master
