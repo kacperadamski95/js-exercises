@@ -1,0 +1,41 @@
+/* 62.5% 1rem=10px */
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+form {
+    padding-bottom: 5rem;
+}
+
+.list__item {
+    font-size: 1.6rem;
+    background-color: brown;
+}
+
+.list_item_second {
+    font-size: 1.6rem;
+    background-color: yellowgreen;
+    color: red;
+}
+
+.remove-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* .list__item {
+    display: inline-flex;
+} */
+
+/* .shopping-list {
+    display: flex;
+    flex-direction: column;
+} */
