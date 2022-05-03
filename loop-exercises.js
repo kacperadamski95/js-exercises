@@ -1,10 +1,3 @@
-// exercising loop for 
-    // print all odd numbers from 7 to 31
-    // for (let i = 7; i <= 31; i++) {
-    //     if (i % 2 !=0) {
-    //         console.log(i);
-    //     }
-    // }
 
     const printAllEvenNumbersFromRangeXToY = (x, y) => {
         for (let i = x; i <= y; i++) {
@@ -13,10 +6,6 @@
             }
         }
     }
-
-    // printAllEvenNumbersFromRangeXToY(-10, 75);
-
-
     // print even numbers from 10 to -20
     for (i = 10; i >= -20; i--) {
         if (i % 2 ==0) {
@@ -27,7 +16,6 @@
     // For multiples of 3 print “Fizz”
     // For multiples of 5 print “Buzz”
     // For multiples of 3 and 5 print “FizzBuzz”
-    // Warto zapamiętać ten przykład, bo może pojawić się na rozmowie kwalifikacyjnej
     for (var index = 1; index <= 45; index++) {
         if (index % 3 == 0 && index % 5 == 0) {
             // console.log("FizzBuzz");
@@ -51,14 +39,7 @@
     };
         // printFizzFor3BuzzFor5FizzBuzzfor3And5FromRangeVToW(3, 210);
 
-    
-    
-        
-    // && - i 
-    // || - lub (or)
-    // ^ - to lub to (jeden z, ale nie 2 równocześnie, musi być więcej niż 2 zmienne)
-    // ! - negacja (!=)
-        
+
     let thisIsAnArray = ["element1", "element2", "element3", "element4"];
     for (let i = 0; i < thisIsAnArray.length; i++) {
         // console.log(thisIsAnArray[i]);
@@ -69,8 +50,6 @@
         sum = sum + numberArrays[i];
     }
         // console.log("The sum is: " + sum);
-
-    //funkcja na obliczanie powierzchni kwadratu z dowolnej długości boku
 
     const calculateSquareAreaFromAnySideLenght = (a) => {
         console.log(a * a);
